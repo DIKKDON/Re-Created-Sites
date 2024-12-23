@@ -1,0 +1,99 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	background-color:skyblue;
+}
+
+#top-leave{
+	padding-left: 28%;
+    /*margin-top: 50%;*/
+    width: 20%;
+    height: 10%;
+    margin-top: 5%;
+    margin-bottom: 0px;
+    background-color: transparent;
+}
+
+.form{
+	background-color: white;
+    padding: 20px;
+    /*margin: 50px;*/
+    margin-top:0px;
+    /*margin-right: 500px;*/
+    margin-bottom:700%;
+   /* margin-top: 0px;*/
+    margin-left: 450px;
+    width:470px;
+    height:480px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+   /* position: fixed;*/
+}
+
+.form >img{
+	height: 80px;
+    width: 70px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    cursor: pointer
+    text-align: center;
+    font-size: 20px;
+}
+
+.form h2{
+	font-size: 20px;
+
+}
+
+#form-input{
+	text-align: left;
+	/*padding-left: 30px;
+	padding-top: 30px;*/
+	padding: 40px;
+
+
+}
+
+input[type=text],[type=password], [type=submit]{
+	 width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: white;
+    border: thin;
+    border-color: black;
+    
+
+
+}
+input[type=submit]{
+	margin-top: 30px;
+	background-color: gray;
+}
+
+input[type=text],[type=password], [type=submit] label{
+	padding:5px;
+}
+
+#form-input a{
+	color: black;
+	text-decoration: none;
+	font-size: 15px;
+}
+a{
+	color: limegreen;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+	background-color: transparent;
+}
+
+#img-footer{
+	padding-left: 30%;
+    /*margin-top: 50%;*/
+    width: 50%;
+    height: 70%;
+    margin-top: 0;
+    margin-bottom: 900%;
+    background-color: transparent;
+}

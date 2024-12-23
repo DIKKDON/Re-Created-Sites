@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="46" viewBox="0 0 46 46">
+    <defs>
+        <rect id="b" width="40" height="40" rx="4"/>
+        <filter id="a" width="125%" height="125%" x="-12.5%" filterUnits="objectBoundingBox">
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1.5"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(3 2)">
+            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+            <use fill="#FFF" fill-opacity=".2" xlink:href="#b"/>
+        </g>
+        <path stroke="#FFF" stroke-width="3.5" d="M23 33.997c-6.618 0-12-5.382-12-11.999C11 15.381 16.382 10 23 10s12 5.381 12 11.998c0 6.617-5.382 11.999-12 11.999z"/>
+        <path fill="#FFF" d="M23.606 16.487c.584.01 1.174.103 1.769.277.594.175 1.11.436 1.545.785l-1.29 1.257a2.348 2.348 0 0 0-.917-.59 3.192 3.192 0 0 0-1.107-.203v3.022c.403.12.807.26 1.21.419.404.16.768.361 1.092.606.324.244.587.54.79.89.201.349.302.778.302 1.286 0 .52-.093.975-.279 1.37a2.878 2.878 0 0 1-.749.987 3.333 3.333 0 0 1-1.084.606 4.24 4.24 0 0 1-1.282.224V28.5h-.861v-1.077a6.653 6.653 0 0 1-2.016-.367A5.05 5.05 0 0 1 19 26.032l1.402-1.257c.287.32.648.581 1.084.785.436.205.855.312 1.259.322v-3.321c-.467-.12-.903-.257-1.307-.411a4.003 4.003 0 0 1-1.06-.591 2.576 2.576 0 0 1-.709-.86c-.17-.335-.255-.741-.255-1.22 0-.449.093-.85.28-1.204a2.82 2.82 0 0 1 .748-.905c.314-.25.67-.446 1.068-.59.398-.146.81-.233 1.235-.263V15.5h.86v.987zm-.861 1.526c-.372.04-.701.17-.988.39-.287.219-.43.548-.43.987 0 .418.135.735.406.95.271.214.608.376 1.012.486v-2.813zm.86 7.869c.447-.02.805-.17 1.076-.449s.407-.643.407-1.092c0-.439-.141-.77-.423-.995a3.375 3.375 0 0 0-1.06-.546v3.082z"/>
+    </g>
+</svg>
